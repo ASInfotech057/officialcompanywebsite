@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contact Us - AS Infotech</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <!-- Contact Hero -->
+        <section class="contact-hero">
+            <div class="container">
+                <h1>Get In Touch</h1>
+                <p>
+                    Ready to start your project? Let's discuss how we can help
+                    transform your business.
+                </p>
+            </div>
+        </section>
+
+        <!-- Contact Content -->
+        <section class="contact-content">
+            <div class="container">
+                <div class="contact-grid">
+                    <!-- Contact Form -->
+                    <div class="contact-form-section">
+                        <h2>Send Us a Message</h2>
+                        <p>
+                            Fill out the form below and we'll get back to you
+                            within 24 hours.
+                        </p>
+
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input
+                                    type="text"
+                                    id="name"
+                                    name="name"
+                                    required
+                                />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    required
+                                />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="company">Company Name</label>
+                                <input
+                                    type="text"
+                                    id="company"
+                                    name="company"
+                                />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="service"
+                                    >Service Interested In</label
+                                >
+                                <select id="service" name="service">
+                                    <option value="">Select a service</option>
+                                    <option value="website-development">
+                                        Website Design & Development
+                                    </option>
+                                    <option value="mobile-app-development">
+                                        Mobile App Development
+                                    </option>
+                                    <option value="digital-marketing">
+                                        Digital Marketing
+                                    </option>
+                                    <option value="graphic-design">
+                                        Graphic Design
+                                    </option>
+                                    <option value="custom-software">
+                                        Custom Software Development
+                                    </option>
+                                    <option value="consultation">
+                                        Consultation
+                                    </option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="budget">Project Budget</label>
+                                <select id="budget" name="budget">
+                                    <option value="">
+                                        Select budget range
+                                    </option>
+                                    <option value="under-10k">
+                                        Under $10,000
+                                    </option>
+                                    <option value="10k-25k">
+                                        $10,000 - $25,000
+                                    </option>
+                                    <option value="25k-50k">
+                                        $25,000 - $50,000
+                                    </option>
+                                    <option value="50k-100k">
+                                        $50,000 - $100,000
+                                    </option>
+                                    <option value="over-100k">
+                                        Over $100,000
+                                    </option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Project Details *</label>
+                                <textarea
+                                    id="message"
+                                    name="message"
+                                    rows="6"
+                                    required
+                                    placeholder="Tell us about your project, goals, and requirements..."
+                                ></textarea>
+                            </div>
+
+                            <button
+                                type="submit"
+                                id="submit-btn"
+                                class="btn btn-primary"
+                            >
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Contact Information -->
+                    <div class="contact-info-section">
+                        <h2>Contact Information</h2>
+                        <p>
+                            Get in touch with us through any of these channels:
+                        </p>
+
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h3>Phone</h3>
+                                    <p>+1 (555) 123-4567</p>
+                                    <p>+1 (555) 987-6543</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h3>Email</h3>
+                                    <p>info@techsolutions.com</p>
+                                    <p>support@techsolutions.com</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h3>Address</h3>
+                                    <p>123 Tech Street</p>
+                                    <p>Silicon Valley, CA 94025</p>
+                                    <p>United States</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h3>Business Hours</h3>
+                                    <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                                    <p>Saturday: 10:00 AM - 4:00 PM</p>
+                                    <p>Sunday: Closed</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-contact">
+                            <h3>Follow Us</h3>
+                            <div class="social-links-large">
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-linkedin"></i>
+                                    <span>LinkedIn</span>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-twitter"></i>
+                                    <span>Twitter</span>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-facebook"></i>
+                                    <span>Facebook</span>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-instagram"></i>
+                                    <span>Instagram</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <div class="container">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3>What is your typical project timeline?</h3>
+                        <p>
+                            Project timelines vary depending on complexity and
+                            scope. A simple website might take 2-4 weeks, while
+                            a complex custom application could take 3-6 months.
+                            We'll provide a detailed timeline during our initial
+                            consultation.
+                        </p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3>
+                            Do you provide ongoing support after project
+                            completion?
+                        </h3>
+                        <p>
+                            Yes, we offer various support and maintenance
+                            packages to ensure your solution continues to
+                            perform optimally. This includes updates, security
+                            patches, and technical support.
+                        </p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3>What technologies do you specialize in?</h3>
+                        <p>
+                            We work with a wide range of technologies including
+                            React, Node.js, Python, Java, and more. We choose
+                            the best technology stack based on your specific
+                            requirements and goals.
+                        </p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3>Do you work with clients internationally?</h3>
+                        <p>
+                            Absolutely! We have clients worldwide and are
+                            experienced in working across different time zones
+                            and cultures. We use modern collaboration tools to
+                            ensure smooth communication.
+                        </p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3>What is your pricing structure?</h3>
+                        <p>
+                            We offer flexible pricing options including
+                            fixed-price projects, time and materials, and
+                            retainer agreements. We'll work with you to find the
+                            best approach for your budget and needs.
+                        </p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3>Do you provide free consultations?</h3>
+                        <p>
+                            Yes, we offer free initial consultations to discuss
+                            your project requirements, understand your goals,
+                            and provide recommendations. This helps us create a
+                            tailored proposal for your needs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="map-section">
+            <div class="container">
+                <h2 class="section-title">Find Us</h2>
+                <div class="map-placeholder">
+                    <div class="map-content">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <h3>Our Office Location</h3>
+                        <p>
+                            office no.38, Balaji Trade Park,near Reliance
+                            Market,chittor road,/p>
+                        </p>
+                        <p>Bhilwara(Raj.),311001</p>
+                        <a
+                            href="https://maps.google.com"
+                            target="_blank"
+                            class="btn btn-secondary"
+                            >Open in Google Maps</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta">
+            <div class="container">
+                <h2>Ready to Start Your Project?</h2>
+                <p>
+                    Let's discuss how we can help bring your vision to life with
+                    innovative technology solutions.
+                </p>
+                <a href="#contact-form" class="btn btn-primary"
+                    >Get Started Today</a
+                >
+            </div>
+        </section>
+
+        <script src="script.js"></script>
+    </body>
+</html>
