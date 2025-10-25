@@ -24,8 +24,8 @@ async function loadTemplate(targetSelector, templatePath, templateId) {
 // Initialize page
 document.addEventListener("DOMContentLoaded", () => {
   Promise.all([
-    loadTemplate("body", "/partials/navbar.html", "navbar-template"),
-    loadTemplate("body", "/partials/footer.html", "footer-template"),
+    loadTemplate("body", "/navbar.html", "navbar-template"),
+    loadTemplate("body", "/footer.html", "footer-template"),
   ]).then(() => {
     // Add active class to current page in navigation
     const pagePath = window.location.pathname;
